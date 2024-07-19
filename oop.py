@@ -5,39 +5,8 @@
    Класс Shop должен иметь атрибуты animals (список доступных животных) и budget (бюджет магазина),
    а также методы buy_animal(animal) для покупки животного и sell_animal(animal) для продажи животного.
    Реализуйте проверки наличия достаточного бюджета у магазина для покупки и наличия животного в магазине для продажи.
-
-
-
 """
 from __future__ import annotations
-
-"""
-) Создайте класс Library, представляющий библиотеку. 
-   Класс должен иметь атрибуты books (список книг) и members (список членов библиотеки).
-  
-  
-   Реализуйте методы add_book(book) для добавления книги в библиотеку, remove_book(book) для удаления книги из библиотеки,
-   
-   
-   add_member(member) для добавления нового члена библиотеки и remove_member(member) для удаления члена библиотеки.
-   
-   Также реализуйте метод checkout_book(book, member) для выдачи книги члену библиотеки и return_book(book, member)
-   для возврата книги в библиотеку.
-"""
-# class Library:
-#     def __init__(self, books : list[str], members: list[str]):
-#         self.books = books
-#         self.members = members
-#
-#     def add_book(self, book: str):
-#         self.book = book
-#         self.books.append(self.book)
-#
-#     def remove_book(self, book: str):
-#         self.books.pop(self.book)
-#
-#     def add_member(self, member):
-
 
 from typing import TYPE_CHECKING
 
